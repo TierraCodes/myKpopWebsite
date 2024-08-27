@@ -1,0 +1,24 @@
+h1 {
+    background-color: rgb(255, 241, 246);
+    color:rgb(235, 132, 149);
+    padding: 15px;
+    font-size: 300%;
+}
+body {
+    background-color: rgb(255, 216, 223);
+    text-align: center;
+}
+.kpopList {
+    background-color: rgb(255, 241, 246);
+    list-style-position: inside;
+}
+.images{
+    padding: 20px;
+    background-color: rgb(255, 241, 246);
+    width: 300px;
+    height:auto;
+}
+.contents {
+    padding: 0px 15px;
+    font-family: cursive;
+}
