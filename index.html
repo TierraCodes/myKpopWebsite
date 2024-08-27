@@ -6,7 +6,7 @@
     <title>Welcome</title>
     <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body class="contents">
+<body>
     <h1>K-Pop Choreographies I'd Like to Learn</h1>
     <div>
         <p>
@@ -15,26 +15,30 @@
     </div>
     <div>
         <h2>A few groups I'm interested in: </h2>
+        <p id="secretText">
+            (Click here to reveal my favorite out of these groups) => 
+            <button onclick="revealFav()">Yay!</button>
+        </p>
         <ol class="kpopList">
             <li>Katseye</li>
-            <li>BTS</li>
+            <li id="favorite">BTS</li>
             <li>Illit</li>
-            <li>Twice</li>
+            <li id="secondFav">Twice</li>
         </ol>
     </div>
     <div>
         <p>
             <a href="katseyePage.html">
-            <img class="images" src="media/Katseye.jpeg"></a>
+            <img class="homePics" src="media/Katseye.jpeg"></a>
 
             <a href="btsPage.html">
-            <img class="images" src="media/BTS.jpeg"></a>
+            <img class="homePics" src="media/BTS.jpeg"></a>
 
             <a href="illitPage.html">
-            <img class="images" src="media/ILLIT.jpeg"/></a>
+            <img class="homePics" src="media/ILLIT.jpeg"/></a>
 
             <a href="twicePage.html">
-                <img class="images" src="media/Twice.jpeg"/></a>
+            <img class="homePics" src="media/Twice.jpeg"/></a>
         </p>
     </div>
     <script src="javascript/app.js"></script>
