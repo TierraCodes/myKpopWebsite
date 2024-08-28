@@ -4,6 +4,7 @@ h1 {
     padding: 15px;
     margin: 20px;
     font-size: 300%;
+    border: 1px solid white;
 }
 body {
     background-color: rgb(255, 216, 223);
@@ -14,12 +15,14 @@ body {
 .kpopList {
     background-color: rgb(255, 241, 246);
     list-style-position: inside;
+    border: 1px solid white;
 }
 .images{
     padding: 20px;
     background-color: rgb(255, 241, 246);
     width: 270px;
     height:auto;
+    border: 1px solid white;
 }
 #secretText{
     font-size: x-small;
@@ -46,15 +49,17 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: palegoldenrod;
+    background-color: rgb(255, 241, 246);
+    border: 1px solid white;
 }
 .navItem {
-    display: inline;
+    float: left;
+    border: 1px solid white;
 }
 .navItem a {
     display: block;
-    color: white;
+    color: palevioletred;
     text-align: center;
-    padding: 0px 15px;
+    padding: 14px 16px;
     text-decoration: none;
 }
