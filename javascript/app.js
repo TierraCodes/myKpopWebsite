@@ -5,7 +5,3 @@ function revealFav(){
     favGroup.style.letterSpacing = "0.4em";
     favGroup.style.border = "dashed red"
 }
-
-function goBack() {
-    history.back();
-}
