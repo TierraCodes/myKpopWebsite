@@ -27,12 +27,6 @@ body {
 #secretText{
     font-size: x-small;
 }
-#favorite {
-    font-style: italic;
-}
-#secondFav {
-    font-style: italic;
-}
 .homePics {
     padding: 20px;
     background-color: rgb(255, 241, 246);
